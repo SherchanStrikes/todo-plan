@@ -8,7 +8,7 @@ import { NgForm } from '@angular/forms';
 })
 export class TaskPlannerComponent {
   taskArray = [{
-    taskName: 'Brush teeths',
+    taskName: 'Brush teeth',
     isCompleted: false
   }]
   onSubmit(form: NgForm){
